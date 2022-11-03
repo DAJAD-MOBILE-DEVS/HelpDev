@@ -27,7 +27,8 @@ The JAD app is for anyone who aspires to learn programming at the beginner level
 
 * User can create an account to login
 * User can login anonomously to use the app without an account
-* User can post a question a question and reply to other questions
+* User can post a question
+* User can reply to other questions
 * User can navigate app with tabs in the navigation bar
 * Users are able to upload photos in addition to text when posting a question
 * User can view information on any of the 3 coding languages provided by the app
@@ -86,3 +87,42 @@ Optional:
 
 ![](https://i.imgur.com/MiJGd1R.gif)
 
+
+## Schema 
+
+
+### Models
+
+
+
+
+
+| Property        | Type    | Description                                   |
+| --------------- | ------- | --------------------------------------------- |
+| Object ID       | String  | User posts ID's                               |
+| User ID         | String  | Stores the unique user ID                     |
+| User            | Pointer to User    ID    |Username                                          |
+| Anonymous User  | Boolean | A true or false value for logging in          |
+| Profile Picture | File    | A profile picture that the user can customize |
+| Comments        | String  | The comment content stored into a string      |
+| Embeded Video   | String  |   the address of the link of the youtube video                                            |
+|                 |         |                                               |
+
+### Networking
+List of network requests by screen 
+
+* Login Screen 
+  * (Read/GET) Login information
+  ![](https://i.imgur.com/vuKrsVg.png)
+  * (Create/POST)Singup
+  ![](https://i.imgur.com/4yKVKmt.png)
+* Q&A Screen
+  * (Create/POST) Post question
+  ![](https://i.imgur.com/w0Xaa7N.png)
+  * (Read/GET) Retrieve list of questions
+  * (Create/POST) Create a new comment
+  ![](https://i.imgur.com/Oop0plm.png)
+  * (Read/GET) Retrieve list of comments/replies on each post
+   
+
+     
