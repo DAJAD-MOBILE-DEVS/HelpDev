@@ -26,6 +26,7 @@ The JAD app is for anyone who aspires to learn programming at the beginner level
 **Required Must-have Stories**
 
 * User can create an account to login
+
 ![](https://i.imgur.com/UUbnkHx.gif)
 
 * User can login anonomously to use the app without an account
