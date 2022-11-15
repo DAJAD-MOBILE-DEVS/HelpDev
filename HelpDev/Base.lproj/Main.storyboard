@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="HelpDev" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="HelpDevFinalLogo" translatesAutoresizingMaskIntoConstraints="NO" id="s6D-V1-9hh">
@@ -79,56 +79,69 @@
                     <connections>
                         <outlet property="passwordField" destination="mPg-6j-XWF" id="Acb-Ck-MHr"/>
                         <outlet property="usernameField" destination="nry-JP-Mh9" id="QzZ-md-Uj0"/>
-                        <segue destination="uCS-u8-S8b" kind="presentation" identifier="loginSegue" id="nQS-hQ-BY8"/>
+                        <segue destination="jRh-kh-RHx" kind="presentation" identifier="loginSegue" id="oVT-3i-wX4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1604" y="-1742"/>
         </scene>
-        <!--Feed View Controller-->
-        <scene sceneID="pMg-AQ-Dds">
+        <!--Java-->
+        <scene sceneID="Dx4-VD-UpX">
             <objects>
-                <viewController id="tls-fp-6Ve" customClass="FeedViewController" customModule="HelpDev" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gws-S2-R61">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                <viewController modalPresentationStyle="fullScreen" id="XYa-JK-V65" customClass="JavaViewController" customModule="HelpDev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gYT-Xx-k7j">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="HelpDevFinalLogo" translatesAutoresizingMaskIntoConstraints="NO" id="vex-Ow-Xsf">
-                                <rect key="frame" x="61" y="118" width="270" height="286"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Xdz-1N-PKa"/>
+                        <viewLayoutGuide key="safeArea" id="1XJ-eG-ggX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="tEo-yD-k11"/>
+                    <navigationItem key="navigationItem" title="Java" id="kCa-QF-N4U"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LJL-KS-scY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="etb-Cx-DZS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1733.5877862595419" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1604" y="-318"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="wHG-wn-1RK">
+        <!--Tab Bar Controller-->
+        <scene sceneID="GYY-X6-Zm5">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uCS-u8-S8b" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="jRh-kh-RHx" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ceO-OA-hVN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FOd-m2-9or" kind="relationship" relationship="viewControllers" id="Pse-P3-8Hd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ysS-kg-2WI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2506" y="-1742"/>
+        </scene>
+        <!--Java-->
+        <scene sceneID="roj-mW-S30">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="FOd-m2-9or" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Java" image="javaLogo" id="Ghv-sc-NS6"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p9N-LS-bp7">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QGo-39-dfk">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="tls-fp-6Ve" kind="relationship" relationship="rootViewController" id="QSa-8c-77m"/>
+                        <segue destination="XYa-JK-V65" kind="relationship" relationship="rootViewController" id="9ra-ew-1aG"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iNj-0B-Nww" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2JD-16-sfP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="900" y="-2"/>
+            <point key="canvasLocation" x="1604" y="-1006"/>
         </scene>
     </scenes>
     <resources>
         <image name="HelpDevFinalLogo" width="688" height="719"/>
+        <image name="javaLogo" width="25" height="25"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

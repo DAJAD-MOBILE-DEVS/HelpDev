@@ -1,13 +1,13 @@
 //
-//  FeedViewController.swift
+//  JavaViewController.swift
 //  HelpDev
 //
-//  Created by Daniel Milanes  on 11/14/22.
+//  Created by David Delgado on 11/15/22.
 //
 
 import UIKit
 
-class FeedViewController: UIViewController {
+class JavaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
