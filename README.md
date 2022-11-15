@@ -27,9 +27,9 @@ The JAD app is for anyone who aspires to learn programming at the beginner level
 
 * [x] User can create an account to login
 
-![](https://i.imgur.com/UUbnkHx.gif)
+![](https://i.imgur.com/bhoXdOQ.gif)
 
-* [ ] User can login anonomously to use the app without an account
+* [x] User can login anonomously to use the app without an account
 * [ ] User can post a question
 * [ ] User can reply to other questions
 * [ ] User can navigate app with tabs in the navigation bar
