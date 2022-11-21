@@ -102,6 +102,22 @@
             </objects>
             <point key="canvasLocation" x="1604" y="-318"/>
         </scene>
+        <!--Swift-->
+        <scene sceneID="eVf-Xn-p1A">
+            <objects>
+                <viewController id="iD5-mE-XOB" customClass="SwiftViewController" customModule="HelpDev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GVh-z8-VY5">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6dw-BL-OAz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Swift" id="s4v-nr-aRr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5oK-BY-HPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2505" y="-318"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="GYY-X6-Zm5">
             <objects>
@@ -113,6 +129,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="FOd-m2-9or" kind="relationship" relationship="viewControllers" id="Pse-P3-8Hd"/>
+                        <segue destination="kCs-Zw-Qcj" kind="relationship" relationship="viewControllers" id="rPs-6o-2Gr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ysS-kg-2WI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -138,10 +155,30 @@
             </objects>
             <point key="canvasLocation" x="1604" y="-1006"/>
         </scene>
+        <!--Swift-->
+        <scene sceneID="SVR-HT-7dk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kCs-Zw-Qcj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Swift" image="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" selectedImage="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" id="wMv-9m-PmE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q9P-js-Jrx">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iD5-mE-XOB" kind="relationship" relationship="rootViewController" id="3vn-6I-4o8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yGt-bT-ck7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2504.6153846153848" y="-1007.345971563981"/>
+        </scene>
     </scenes>
     <resources>
         <image name="HelpDevFinalLogo" width="688" height="719"/>
         <image name="javaLogo" width="25" height="25"/>
+        <image name="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" width="25" height="25"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

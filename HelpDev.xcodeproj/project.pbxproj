@@ -15,6 +15,7 @@
 		31FD105B291D731B00CEDB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FD105A291D731B00CEDB72 /* Assets.xcassets */; };
 		31FD105E291D731B00CEDB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FD105C291D731B00CEDB72 /* LaunchScreen.storyboard */; };
 		65AA163B2922CEB70072AD24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA163A2922CEB70072AD24 /* LoginViewController.swift */; };
+		ADC10CBD292BFD9F00770AAC /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		31FD105D291D731B00CEDB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31FD105F291D731B00CEDB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65AA163A2922CEB70072AD24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		CA3B08AD2E40DA224AA8A874 /* Pods-HelpDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpDev.debug.xcconfig"; path = "Target Support Files/Pods-HelpDev/Pods-HelpDev.debug.xcconfig"; sourceTree = "<group>"; };
 		EE77E2472A6AB67B6B598F25 /* Pods-HelpDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpDev.release.xcconfig"; path = "Target Support Files/Pods-HelpDev/Pods-HelpDev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				31FD105A291D731B00CEDB72 /* Assets.xcassets */,
 				31FD105C291D731B00CEDB72 /* LaunchScreen.storyboard */,
 				31FD105F291D731B00CEDB72 /* Info.plist */,
+				ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */,
 			);
 			path = HelpDev;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				3176169A2924468F009C9C01 /* JavaViewController.swift in Sources */,
 				65AA163B2922CEB70072AD24 /* LoginViewController.swift in Sources */,
 				31FD1052291D731A00CEDB72 /* AppDelegate.swift in Sources */,
+				ADC10CBD292BFD9F00770AAC /* SwiftViewController.swift in Sources */,
 				31FD1054291D731A00CEDB72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
