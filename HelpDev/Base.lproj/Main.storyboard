@@ -118,6 +118,22 @@
             </objects>
             <point key="canvasLocation" x="2505" y="-318"/>
         </scene>
+        <!--Python-->
+        <scene sceneID="Zuh-Cd-BQb">
+            <objects>
+                <viewController id="T5i-Hx-k8A" customClass="PythonViewController" customModule="HelpDev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bHa-iz-1Kg">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="g1w-IQ-waH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Python" id="4hG-yY-6dp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uC2-pZ-jQl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3331" y="-318"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="GYY-X6-Zm5">
             <objects>
@@ -130,6 +146,7 @@
                     <connections>
                         <segue destination="FOd-m2-9or" kind="relationship" relationship="viewControllers" id="Pse-P3-8Hd"/>
                         <segue destination="kCs-Zw-Qcj" kind="relationship" relationship="viewControllers" id="rPs-6o-2Gr"/>
+                        <segue destination="GQz-xh-lhS" kind="relationship" relationship="viewControllers" id="t49-fZ-yTu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ysS-kg-2WI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -174,11 +191,29 @@
             </objects>
             <point key="canvasLocation" x="2504.6153846153848" y="-1007.345971563981"/>
         </scene>
+        <!--Python-->
+        <scene sceneID="2GK-jc-x7F">
+            <objects>
+                <navigationController id="GQz-xh-lhS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Python" image="python" selectedImage="python" id="o4u-Wb-3LZ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ApI-qa-8Gt">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="T5i-Hx-k8A" kind="relationship" relationship="rootViewController" id="t8F-V4-JSr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JVm-cg-qa7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3331" y="-1007"/>
+        </scene>
     </scenes>
     <resources>
         <image name="HelpDevFinalLogo" width="688" height="719"/>
         <image name="javaLogo" width="25" height="25"/>
         <image name="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" width="25" height="25"/>
+        <image name="python" width="25" height="25"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
