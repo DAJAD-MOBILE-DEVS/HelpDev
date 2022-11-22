@@ -174,7 +174,7 @@
         <scene sceneID="roj-mW-S30">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="FOd-m2-9or" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Java" image="javaLogo" id="Ghv-sc-NS6"/>
+                    <tabBarItem key="tabBarItem" title="Java" image="javaLogo" selectedImage="javaLogo" id="Ghv-sc-NS6"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QGo-39-dfk">
                         <rect key="frame" x="0.0" y="47" width="390" height="44"/>
@@ -193,7 +193,7 @@
         <scene sceneID="SVR-HT-7dk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kCs-Zw-Qcj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Swift" image="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" selectedImage="swiftlogo" id="wMv-9m-PmE"/>
+                    <tabBarItem key="tabBarItem" title="Swift" image="Ronaldo" selectedImage="Ronaldo" id="wMv-9m-PmE"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="q9P-js-Jrx">
                         <rect key="frame" x="0.0" y="47" width="390" height="44"/>
@@ -247,11 +247,10 @@
     </scenes>
     <resources>
         <image name="HelpDevFinalLogo" width="688" height="719"/>
+        <image name="Ronaldo" width="25" height="25"/>
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="javaLogo" width="25" height="25"/>
-        <image name="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" width="25" height="25"/>
         <image name="python" width="25" height="25"/>
-        <image name="swiftlogo" width="25" height="25"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
