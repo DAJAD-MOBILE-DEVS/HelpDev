@@ -73,12 +73,12 @@
 				31FD1053291D731A00CEDB72 /* SceneDelegate.swift */,
 				65AA163A2922CEB70072AD24 /* LoginViewController.swift */,
 				317616992924468F009C9C01 /* JavaViewController.swift */,
-				31FD1057291D731A00CEDB72 /* Main.storyboard */,
-				B0D397A8292C13F600437F58 /* PythonViewController.swift */,
-				31FD105A291D731B00CEDB72 /* Assets.xcassets */,
-				31FD105C291D731B00CEDB72 /* LaunchScreen.storyboard */,
-				31FD105F291D731B00CEDB72 /* Info.plist */,
 				ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */,
+				B0D397A8292C13F600437F58 /* PythonViewController.swift */,
+				31FD1057291D731A00CEDB72 /* Main.storyboard */,
+				31FD105C291D731B00CEDB72 /* LaunchScreen.storyboard */,
+				31FD105A291D731B00CEDB72 /* Assets.xcassets */,
+				31FD105F291D731B00CEDB72 /* Info.plist */,
 			);
 			path = HelpDev;
 			sourceTree = "<group>";

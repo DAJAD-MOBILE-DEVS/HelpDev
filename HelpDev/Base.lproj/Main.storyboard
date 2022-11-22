@@ -28,7 +28,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nry-JP-Mh9">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nry-JP-Mh9">
                                 <rect key="frame" x="97" y="414" width="195" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -41,7 +41,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mPg-6j-XWF">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mPg-6j-XWF">
                                 <rect key="frame" x="97" y="527" width="195" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -176,7 +176,7 @@
         <scene sceneID="SVR-HT-7dk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kCs-Zw-Qcj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Swift" image="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" selectedImage="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" id="wMv-9m-PmE"/>
+                    <tabBarItem key="tabBarItem" title="Swift" image="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" selectedImage="swiftlogo" id="wMv-9m-PmE"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="q9P-js-Jrx">
                         <rect key="frame" x="0.0" y="47" width="390" height="44"/>
@@ -214,6 +214,7 @@
         <image name="javaLogo" width="25" height="25"/>
         <image name="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" width="25" height="25"/>
         <image name="python" width="25" height="25"/>
+        <image name="swiftlogo" width="25" height="25"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
