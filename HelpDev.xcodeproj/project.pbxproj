@@ -14,6 +14,7 @@
 		31FD1059291D731A00CEDB72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FD1057291D731A00CEDB72 /* Main.storyboard */; };
 		31FD105B291D731B00CEDB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FD105A291D731B00CEDB72 /* Assets.xcassets */; };
 		31FD105E291D731B00CEDB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FD105C291D731B00CEDB72 /* LaunchScreen.storyboard */; };
+		652A5DA7292D6B3C008B7F8B /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */; };
 		65AA163B2922CEB70072AD24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA163A2922CEB70072AD24 /* LoginViewController.swift */; };
 		ADC10CBD292BFD9F00770AAC /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */; };
 		B0D397A9292C13F600437F58 /* PythonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D397A8292C13F600437F58 /* PythonViewController.swift */; };
@@ -29,6 +30,7 @@
 		31FD105A291D731B00CEDB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31FD105D291D731B00CEDB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31FD105F291D731B00CEDB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
 		65AA163A2922CEB70072AD24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		B0D397A8292C13F600437F58 /* PythonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				31FD105C291D731B00CEDB72 /* LaunchScreen.storyboard */,
 				31FD105A291D731B00CEDB72 /* Assets.xcassets */,
 				31FD105F291D731B00CEDB72 /* Info.plist */,
+				652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */,
 			);
 			path = HelpDev;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				31FD1052291D731A00CEDB72 /* AppDelegate.swift in Sources */,
 				ADC10CBD292BFD9F00770AAC /* SwiftViewController.swift in Sources */,
 				31FD1054291D731A00CEDB72 /* SceneDelegate.swift in Sources */,
+				652A5DA7292D6B3C008B7F8B /* ForumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

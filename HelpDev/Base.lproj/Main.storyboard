@@ -134,6 +134,22 @@
             </objects>
             <point key="canvasLocation" x="3331" y="-318"/>
         </scene>
+        <!--Forum-->
+        <scene sceneID="PTG-Zi-YoT">
+            <objects>
+                <viewController id="0wA-xR-6R5" customClass="ForumViewController" customModule="HelpDev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dKC-ac-wF1">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="CaP-Qw-vrA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Forum" id="NjD-ZR-0am"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uml-ns-hKr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4208" y="-318"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="GYY-X6-Zm5">
             <objects>
@@ -147,6 +163,7 @@
                         <segue destination="FOd-m2-9or" kind="relationship" relationship="viewControllers" id="Pse-P3-8Hd"/>
                         <segue destination="kCs-Zw-Qcj" kind="relationship" relationship="viewControllers" id="rPs-6o-2Gr"/>
                         <segue destination="GQz-xh-lhS" kind="relationship" relationship="viewControllers" id="t49-fZ-yTu"/>
+                        <segue destination="Zpc-6K-3CK" kind="relationship" relationship="viewControllers" id="APS-Mc-WmR"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ysS-kg-2WI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -208,9 +225,29 @@
             </objects>
             <point key="canvasLocation" x="3331" y="-1007"/>
         </scene>
+        <!--Forum-->
+        <scene sceneID="0JM-sR-umk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zpc-6K-3CK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Forum" image="book.fill" catalog="system" id="nzo-Yx-Q2r"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FfA-Ro-yP6">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0wA-xR-6R5" kind="relationship" relationship="rootViewController" id="sT2-qF-91a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D32-UQ-csM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4208" y="-1007"/>
+        </scene>
     </scenes>
     <resources>
         <image name="HelpDevFinalLogo" width="688" height="719"/>
+        <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="javaLogo" width="25" height="25"/>
         <image name="png-transparent-swift-apple-logo-objective-c-apple-logo-computer-programming-fruit-nut" width="25" height="25"/>
         <image name="python" width="25" height="25"/>
