@@ -5,12 +5,17 @@
 //  Created by Joseph Bargallo on 11/21/22.
 //
 
+import youtube_ios_player_helper
 import UIKit
 
-class SwiftViewController: UIViewController {
+class SwiftViewController: UIViewController, YTPlayerViewDelegate{
+    
+    @IBOutlet var playervView: YTPlayerView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        playervView.delegate = self
+        playervView.load(withVideoId: "F2ojC6TNwws", playerVars: ["playsinline":1])
 
         // Do any additional setup after loading the view.
     }

@@ -109,14 +109,93 @@
                     <view key="view" contentMode="scaleToFill" id="GVh-z8-VY5">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-Il-ZRE">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqe-w9-uep">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1500"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="What is swift-Javapoint" translatesAutoresizingMaskIntoConstraints="NO" id="RqE-ko-DaB">
+                                                <rect key="frame" x="8" y="0.0" width="374" height="231"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="231" id="ZOj-vi-H2H"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Swift-new features-Javapoint" translatesAutoresizingMaskIntoConstraints="NO" id="Cz1-lv-kgJ">
+                                                <rect key="frame" x="8" y="239" width="374" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="5ZS-c1-DKw"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Swift-Data Types-Progamiz" translatesAutoresizingMaskIntoConstraints="NO" id="AWB-Qe-qV2">
+                                                <rect key="frame" x="8" y="447" width="374" height="215"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWq-EA-SUg" customClass="YTPlayerView">
+                                                <rect key="frame" x="0.0" y="704" width="390" height="300"/>
+                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="DQt-9L-BM6"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HYJ-wh-cm2" customClass="YTPlayerView">
+                                                <rect key="frame" x="0.0" y="1119" width="390" height="300"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="iDa-wW-4hG"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="HYJ-wh-cm2" secondAttribute="trailing" id="1Vb-r7-mbJ"/>
+                                            <constraint firstItem="Cz1-lv-kgJ" firstAttribute="top" secondItem="RqE-ko-DaB" secondAttribute="bottom" constant="8" symbolic="YES" id="2rP-cf-dwR"/>
+                                            <constraint firstItem="HYJ-wh-cm2" firstAttribute="top" secondItem="uqe-w9-uep" secondAttribute="top" constant="1119" id="3H1-9U-nyg"/>
+                                            <constraint firstAttribute="trailing" secondItem="IWq-EA-SUg" secondAttribute="trailing" id="6wu-JA-p3S"/>
+                                            <constraint firstItem="AWB-Qe-qV2" firstAttribute="top" secondItem="Cz1-lv-kgJ" secondAttribute="bottom" constant="8" id="ABd-Iw-ode"/>
+                                            <constraint firstItem="IWq-EA-SUg" firstAttribute="top" secondItem="uqe-w9-uep" secondAttribute="top" constant="704" id="C7N-5B-Tvx"/>
+                                            <constraint firstItem="IWq-EA-SUg" firstAttribute="centerX" secondItem="RqE-ko-DaB" secondAttribute="centerX" id="WNi-dq-hcu"/>
+                                            <constraint firstItem="IWq-EA-SUg" firstAttribute="top" secondItem="AWB-Qe-qV2" secondAttribute="bottom" constant="42" id="WxS-Yb-PKm"/>
+                                            <constraint firstItem="RqE-ko-DaB" firstAttribute="leading" secondItem="uqe-w9-uep" secondAttribute="leadingMargin" id="XDF-f3-9Ki"/>
+                                            <constraint firstItem="RqE-ko-DaB" firstAttribute="top" secondItem="uqe-w9-uep" secondAttribute="top" id="XT2-ND-c3Y"/>
+                                            <constraint firstItem="IWq-EA-SUg" firstAttribute="centerX" secondItem="Cz1-lv-kgJ" secondAttribute="centerX" id="YnG-8A-W4P"/>
+                                            <constraint firstItem="RqE-ko-DaB" firstAttribute="leading" secondItem="Cz1-lv-kgJ" secondAttribute="leading" id="eXc-Dn-ENf"/>
+                                            <constraint firstItem="IWq-EA-SUg" firstAttribute="leading" secondItem="uqe-w9-uep" secondAttribute="leading" id="jnx-SR-ZZU"/>
+                                            <constraint firstItem="IWq-EA-SUg" firstAttribute="centerX" secondItem="AWB-Qe-qV2" secondAttribute="centerX" id="kvv-gc-caN"/>
+                                            <constraint firstItem="RqE-ko-DaB" firstAttribute="leading" secondItem="AWB-Qe-qV2" secondAttribute="leading" id="lHN-gR-NLK"/>
+                                            <constraint firstItem="HYJ-wh-cm2" firstAttribute="leading" secondItem="uqe-w9-uep" secondAttribute="leading" id="oLo-zt-C6y"/>
+                                            <constraint firstAttribute="height" constant="1500" id="vGk-Px-ZWQ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="uqe-w9-uep" secondAttribute="bottom" id="Aih-8l-dt7"/>
+                                    <constraint firstAttribute="trailing" secondItem="uqe-w9-uep" secondAttribute="trailing" id="Bkj-ZN-rqk"/>
+                                    <constraint firstItem="uqe-w9-uep" firstAttribute="top" secondItem="HgG-Il-ZRE" secondAttribute="top" id="GgM-fh-jMq"/>
+                                    <constraint firstItem="uqe-w9-uep" firstAttribute="leading" secondItem="HgG-Il-ZRE" secondAttribute="leading" id="X21-AR-JuZ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6dw-BL-OAz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="HgG-Il-ZRE" secondAttribute="bottom" id="1HU-Ph-75q"/>
+                            <constraint firstItem="HgG-Il-ZRE" firstAttribute="leading" secondItem="6dw-BL-OAz" secondAttribute="leading" id="8fl-i1-xSs"/>
+                            <constraint firstItem="HgG-Il-ZRE" firstAttribute="top" secondItem="GVh-z8-VY5" secondAttribute="top" id="YTo-0u-SeI"/>
+                            <constraint firstItem="HgG-Il-ZRE" firstAttribute="trailing" secondItem="6dw-BL-OAz" secondAttribute="trailing" id="bzc-F6-dOR"/>
+                            <constraint firstItem="uqe-w9-uep" firstAttribute="height" secondItem="GVh-z8-VY5" secondAttribute="height" multiplier="1.77725" id="gJZ-6i-zny"/>
+                            <constraint firstItem="uqe-w9-uep" firstAttribute="width" secondItem="GVh-z8-VY5" secondAttribute="width" id="o2P-Zx-sQr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Swift" id="s4v-nr-aRr"/>
+                    <size key="freeformSize" width="390" height="844"/>
+                    <connections>
+                        <outlet property="playervView" destination="HYJ-wh-cm2" id="IcD-VM-eri"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5oK-BY-HPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2505" y="-318"/>
+            <point key="canvasLocation" x="2504.6153846153848" y="-318.48341232227489"/>
         </scene>
         <!--Python-->
         <scene sceneID="Zuh-Cd-BQb">
@@ -248,9 +327,15 @@
     <resources>
         <image name="HelpDevFinalLogo" width="688" height="719"/>
         <image name="Ronaldo" width="25" height="25"/>
+        <image name="Swift-Data Types-Progamiz" width="1610" height="834"/>
+        <image name="Swift-new features-Javapoint" width="1640" height="780"/>
+        <image name="What is swift-Javapoint" width="1630" height="460"/>
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="javaLogo" width="25" height="25"/>
         <image name="python" width="25" height="25"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
