@@ -15,6 +15,7 @@
 		31FD105B291D731B00CEDB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FD105A291D731B00CEDB72 /* Assets.xcassets */; };
 		31FD105E291D731B00CEDB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FD105C291D731B00CEDB72 /* LaunchScreen.storyboard */; };
 		652A5DA7292D6B3C008B7F8B /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */; };
+		65855C6C293594DA00C6406B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65855C6B293594DA00C6406B /* PostViewController.swift */; };
 		65AA163B2922CEB70072AD24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA163A2922CEB70072AD24 /* LoginViewController.swift */; };
 		ADC10CBD292BFD9F00770AAC /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */; };
 		B0D397A9292C13F600437F58 /* PythonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D397A8292C13F600437F58 /* PythonViewController.swift */; };
@@ -31,6 +32,7 @@
 		31FD105D291D731B00CEDB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31FD105F291D731B00CEDB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		65855C6B293594DA00C6406B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		65AA163A2922CEB70072AD24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		B0D397A8292C13F600437F58 /* PythonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				31FD105A291D731B00CEDB72 /* Assets.xcassets */,
 				31FD105F291D731B00CEDB72 /* Info.plist */,
 				652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */,
+				65855C6B293594DA00C6406B /* PostViewController.swift */,
 			);
 			path = HelpDev;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65855C6C293594DA00C6406B /* PostViewController.swift in Sources */,
 				3176169A2924468F009C9C01 /* JavaViewController.swift in Sources */,
 				65AA163B2922CEB70072AD24 /* LoginViewController.swift in Sources */,
 				B0D397A9292C13F600437F58 /* PythonViewController.swift in Sources */,
