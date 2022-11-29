@@ -32,7 +32,10 @@ The JAD app is for anyone who aspires to learn programming at the beginner level
 * [x] User can login anonomously to use the app without an account
 * [ ] User can post a question
 * [ ] User can reply to other questions
-* [ ] User can navigate app with tabs in the navigation bar
+* [x] User can navigate app with tabs in the navigation bar
+
+![](https://i.imgur.com/YglLjdF.gif)
+
 * [ ] Users are able to upload photos in addition to text when posting a question
 * [ ] User can view information on any of the 3 coding languages provided by the app
 

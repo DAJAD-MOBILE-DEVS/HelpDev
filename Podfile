@@ -8,4 +8,5 @@ target 'HelpDev' do
   # Pods for HelpDev
 	pod 'Parse'
  	pod 'AlamofireImage'
+	pod 'youtube-ios-player-helper'
 end
