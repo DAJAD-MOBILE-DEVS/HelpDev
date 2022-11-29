@@ -1,0 +1,25 @@
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/AuthenticationInterceptor.swift":
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.swiftdeps"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.o"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.dia"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.d"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/AFError.swift":
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.o"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.dia"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/CachedResponseHandler.swift":
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.o"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.dia"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.d"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/AlamofireExtended.swift":
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.o"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.dia"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.swiftdeps"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.d"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/Alamofire.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.o"

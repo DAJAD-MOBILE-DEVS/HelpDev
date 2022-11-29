@@ -1,0 +1,20 @@
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/URLRequest+Alamofire.swift":
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.o"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.dia"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.swiftdeps"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/Validation.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Validation.d"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Validation.dia"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Validation.swiftdeps"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Validation.o"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift":
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.o"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.d"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.dia"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.swiftdeps"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/URLEncodedFormEncoder.swift":
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.o"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.swiftdeps"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.d"

@@ -4,11 +4,14 @@
 <array>
 	<string>Foundation</string>
 	<string>CommonCrypto</string>
-	<string>Parse</string>
 	<string>AppKit</string>
-	<string>CoreData</string>
+	<string>Parse</string>
+	<string>AlamofireImage</string>
 	<string>Dispatch</string>
 	<string>CoreGraphics</string>
+	<string>youtube</string>
+	<string>CoreData</string>
+	<string>WebKit</string>
 	<string>UniformTypeIdentifiers</string>
 	<string>Alamofire</string>
 	<string>libkern</string>
@@ -19,9 +22,9 @@
 	<string>os</string>
 	<string>sys</string>
 	<string>CoreLocation</string>
-	<string>CoreImage</string>
-	<string>WatchKit</string>
 	<string>SystemConfiguration</string>
+	<string>WatchKit</string>
+	<string>CoreImage</string>
 	<string>MobileCoreServices</string>
 	<string>StoreKit</string>
 	<string>Cocoa</string>

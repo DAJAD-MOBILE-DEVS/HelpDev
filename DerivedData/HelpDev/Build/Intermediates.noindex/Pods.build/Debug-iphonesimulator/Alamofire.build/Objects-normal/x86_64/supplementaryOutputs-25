@@ -1,0 +1,25 @@
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/AFError.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.swiftdeps"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.o"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AFError.dia"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/AlamofireExtended.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.d"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.dia"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.swiftdeps"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AlamofireExtended.o"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/Alamofire.swift":
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.o"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.swiftdeps"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.d"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Alamofire.dia"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/AuthenticationInterceptor.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AuthenticationInterceptor.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AuthenticationInterceptor.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AuthenticationInterceptor.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/AuthenticationInterceptor.o"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/CachedResponseHandler.swift":
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/CachedResponseHandler.o"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/CachedResponseHandler.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/CachedResponseHandler.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/CachedResponseHandler.dia"

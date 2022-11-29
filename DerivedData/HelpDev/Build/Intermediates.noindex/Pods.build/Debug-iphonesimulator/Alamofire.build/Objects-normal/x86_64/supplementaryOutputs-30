@@ -1,0 +1,20 @@
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/RetryPolicy.swift":
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/RetryPolicy.swiftdeps"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/RetryPolicy.o"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/RetryPolicy.d"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/RetryPolicy.dia"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/Result+Alamofire.swift":
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Result+Alamofire.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Result+Alamofire.o"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Result+Alamofire.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/Result+Alamofire.swiftdeps"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/ServerTrustEvaluation.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ServerTrustEvaluation.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ServerTrustEvaluation.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ServerTrustEvaluation.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ServerTrustEvaluation.o"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/ResponseSerialization.swift":
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ResponseSerialization.dia"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ResponseSerialization.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ResponseSerialization.swiftdeps"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/x86_64/ResponseSerialization.o"

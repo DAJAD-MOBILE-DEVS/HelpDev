@@ -1,0 +1,25 @@
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/HTTPMethod.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/HTTPMethod.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/HTTPMethod.swiftdeps"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/HTTPMethod.o"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/HTTPMethod.dia"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/NetworkReachabilityManager.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/NetworkReachabilityManager.o"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/Notifications.swift":
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Notifications.swiftdeps"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Notifications.d"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Notifications.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Notifications.o"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/MultipartUpload.swift":
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/MultipartUpload.swiftdeps"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/MultipartUpload.d"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/MultipartUpload.o"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/MultipartUpload.dia"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/MultipartFormData.swift":
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/MultipartFormData.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/MultipartFormData.o"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/MultipartFormData.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/MultipartFormData.swiftdeps"

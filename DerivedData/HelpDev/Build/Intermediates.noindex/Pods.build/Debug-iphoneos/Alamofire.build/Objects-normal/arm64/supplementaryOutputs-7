@@ -1,0 +1,20 @@
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/SessionDelegate.swift":
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.o"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.d"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.dia"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.swiftdeps"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/StringEncoding+Alamofire.swift":
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.o"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.swiftdeps"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.d"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/Session.swift":
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.d"
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.o"
+"/Users/alexandrabrown/HelpDev/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift":
+  swift-dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.swiftdeps"
+  diagnostics: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.dia"
+  object: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.o"
+  dependencies: "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.d"

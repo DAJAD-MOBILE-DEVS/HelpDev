@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "bd36f471cf967a34bee56d356f2646278cdb4394a88bff3c4c04c6d027734ea8"
+build_start_time: [1669744848, 44070959]
+build_end_time: [1669744848, 138484001]
+inputs:
+  "/Users/alexandrabrown/HelpDev/HelpDev/AppDelegate.swift": !private [1669060456, 746377706]
+  "/Users/alexandrabrown/HelpDev/HelpDev/ForumViewController.swift": !private [1669688196, 194814682]
+  "/Users/alexandrabrown/HelpDev/HelpDev/JavaViewController.swift": !private [1669060456, 750581264]
+  "/Users/alexandrabrown/HelpDev/HelpDev/LoginViewController.swift": !private [1669060456, 750695228]
+  "/Users/alexandrabrown/HelpDev/HelpDev/PostViewController.swift": !private [1669693571, 696882963]
+  "/Users/alexandrabrown/HelpDev/HelpDev/PythonViewController.swift": !private [1669744602, 915317535]
+  "/Users/alexandrabrown/HelpDev/HelpDev/SceneDelegate.swift": !private [1669060456, 750817537]
+  "/Users/alexandrabrown/HelpDev/HelpDev/SwiftViewController.swift": !private [1669060456, 750938892]
