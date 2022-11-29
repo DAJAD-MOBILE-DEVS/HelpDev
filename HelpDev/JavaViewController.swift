@@ -16,9 +16,11 @@ class JavaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        playerView.load(withVideoId: "so1iUWaLmKA&t=6s&ab_channel=BroCode", playerVars: ["playsinline": 1])
+        playerView.load(withVideoId: "so1iUWaLmKA")
         
-        playerView2.load(withVideoId: "Rn16ugyorX0&ab_channel=BroCode", playerVars: ["playsinline": 1])
+        playerView2.load(withVideoId: "Rn16ugyorX0")
+        
+       
     }
     
 
