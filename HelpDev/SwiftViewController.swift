@@ -15,9 +15,8 @@ class SwiftViewController: UIViewController, YTPlayerViewDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        playervView1.delegate = self
         playervView1.load(withVideoId: "F2ojC6TNwws", playerVars: ["playsinline":1])
-        playervView2.load(withVideoId: "F2ojC6TNwws", playerVars: ["playsinline":1])
+        playervView2.load(withVideoId: "n5X_V81OYnQ", playerVars: ["playsinline":1])
 
         // Do any additional setup after loading the view.
     }

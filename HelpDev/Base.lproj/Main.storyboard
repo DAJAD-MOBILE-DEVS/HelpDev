@@ -106,14 +106,14 @@
         <scene sceneID="eVf-Xn-p1A">
             <objects>
                 <viewController id="iD5-mE-XOB" customClass="SwiftViewController" customModule="HelpDev" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="GVh-z8-VY5">
+                    <view key="view" contentMode="scaleToFill" id="GVh-z8-VY5">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-Il-ZRE">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-Il-ZRE">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uqe-w9-uep">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqe-w9-uep">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="1500"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="What is swift-Javapoint" translatesAutoresizingMaskIntoConstraints="NO" id="RqE-ko-DaB">
@@ -123,13 +123,13 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Swift-new features-Javapoint" translatesAutoresizingMaskIntoConstraints="NO" id="Cz1-lv-kgJ">
-                                                <rect key="frame" x="8" y="239" width="374" height="200"/>
+                                                <rect key="frame" x="8" y="231" width="374" height="200"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="5ZS-c1-DKw"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Swift-Data Types-Progamiz" translatesAutoresizingMaskIntoConstraints="NO" id="AWB-Qe-qV2">
-                                                <rect key="frame" x="8" y="447" width="374" height="215"/>
+                                                <rect key="frame" x="8" y="439" width="374" height="223"/>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWq-EA-SUg" customClass="YTPlayerView">
                                                 <rect key="frame" x="0.0" y="704" width="390" height="300"/>
@@ -150,20 +150,24 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="HYJ-wh-cm2" secondAttribute="trailing" id="1Vb-r7-mbJ"/>
                                             <constraint firstItem="Cz1-lv-kgJ" firstAttribute="top" secondItem="RqE-ko-DaB" secondAttribute="bottom" constant="8" symbolic="YES" id="2rP-cf-dwR"/>
+                                            <constraint firstItem="Cz1-lv-kgJ" firstAttribute="top" secondItem="RqE-ko-DaB" secondAttribute="bottom" id="35C-GZ-X8f"/>
                                             <constraint firstItem="HYJ-wh-cm2" firstAttribute="top" secondItem="uqe-w9-uep" secondAttribute="top" constant="1119" id="3H1-9U-nyg"/>
                                             <constraint firstAttribute="trailing" secondItem="IWq-EA-SUg" secondAttribute="trailing" id="6wu-JA-p3S"/>
                                             <constraint firstItem="AWB-Qe-qV2" firstAttribute="top" secondItem="Cz1-lv-kgJ" secondAttribute="bottom" constant="8" id="ABd-Iw-ode"/>
                                             <constraint firstItem="IWq-EA-SUg" firstAttribute="top" secondItem="uqe-w9-uep" secondAttribute="top" constant="704" id="C7N-5B-Tvx"/>
                                             <constraint firstItem="IWq-EA-SUg" firstAttribute="centerX" secondItem="RqE-ko-DaB" secondAttribute="centerX" id="WNi-dq-hcu"/>
+                                            <constraint firstItem="HYJ-wh-cm2" firstAttribute="top" secondItem="IWq-EA-SUg" secondAttribute="bottom" constant="10" id="WOz-aC-Vs4"/>
                                             <constraint firstItem="IWq-EA-SUg" firstAttribute="top" secondItem="AWB-Qe-qV2" secondAttribute="bottom" constant="42" id="WxS-Yb-PKm"/>
                                             <constraint firstItem="RqE-ko-DaB" firstAttribute="leading" secondItem="uqe-w9-uep" secondAttribute="leadingMargin" id="XDF-f3-9Ki"/>
                                             <constraint firstItem="RqE-ko-DaB" firstAttribute="top" secondItem="uqe-w9-uep" secondAttribute="top" id="XT2-ND-c3Y"/>
                                             <constraint firstItem="IWq-EA-SUg" firstAttribute="centerX" secondItem="Cz1-lv-kgJ" secondAttribute="centerX" id="YnG-8A-W4P"/>
                                             <constraint firstItem="RqE-ko-DaB" firstAttribute="leading" secondItem="Cz1-lv-kgJ" secondAttribute="leading" id="eXc-Dn-ENf"/>
+                                            <constraint firstItem="HYJ-wh-cm2" firstAttribute="top" secondItem="IWq-EA-SUg" secondAttribute="bottom" id="i46-Cv-4zS"/>
                                             <constraint firstItem="IWq-EA-SUg" firstAttribute="leading" secondItem="uqe-w9-uep" secondAttribute="leading" id="jnx-SR-ZZU"/>
                                             <constraint firstItem="IWq-EA-SUg" firstAttribute="centerX" secondItem="AWB-Qe-qV2" secondAttribute="centerX" id="kvv-gc-caN"/>
                                             <constraint firstItem="RqE-ko-DaB" firstAttribute="leading" secondItem="AWB-Qe-qV2" secondAttribute="leading" id="lHN-gR-NLK"/>
                                             <constraint firstItem="HYJ-wh-cm2" firstAttribute="leading" secondItem="uqe-w9-uep" secondAttribute="leading" id="oLo-zt-C6y"/>
+                                            <constraint firstItem="HYJ-wh-cm2" firstAttribute="top" secondItem="IWq-EA-SUg" secondAttribute="bottom" constant="40" id="stq-B2-ySY"/>
                                             <constraint firstAttribute="height" constant="1500" id="vGk-Px-ZWQ"/>
                                         </constraints>
                                     </view>
@@ -190,7 +194,8 @@
                     <navigationItem key="navigationItem" title="Swift" id="s4v-nr-aRr"/>
                     <size key="freeformSize" width="390" height="844"/>
                     <connections>
-                        <outlet property="playervView" destination="HYJ-wh-cm2" id="IcD-VM-eri"/>
+                        <outlet property="playervView1" destination="IWq-EA-SUg" id="KSg-6E-N3E"/>
+                        <outlet property="playervView2" destination="HYJ-wh-cm2" id="45h-dh-osi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5oK-BY-HPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
