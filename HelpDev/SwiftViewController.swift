@@ -10,12 +10,14 @@ import UIKit
 
 class SwiftViewController: UIViewController, YTPlayerViewDelegate{
     
-    @IBOutlet var playervView: YTPlayerView!
+    @IBOutlet var playervView1: YTPlayerView!
+    @IBOutlet var playervView2: YTPlayerView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        playervView.delegate = self
-        playervView.load(withVideoId: "F2ojC6TNwws", playerVars: ["playsinline":1])
+        playervView1.delegate = self
+        playervView1.load(withVideoId: "F2ojC6TNwws", playerVars: ["playsinline":1])
+        playervView2.load(withVideoId: "F2ojC6TNwws", playerVars: ["playsinline":1])
 
         // Do any additional setup after loading the view.
     }
