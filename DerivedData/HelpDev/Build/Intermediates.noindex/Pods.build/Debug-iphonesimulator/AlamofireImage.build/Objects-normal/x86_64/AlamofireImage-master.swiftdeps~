@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "7ed6c4f597bb9aad70d163fc83348e4388e0159ae8aca43952bd3df59fe08685"
+build_start_time: [1669773539, 613689899]
+build_end_time: [1669773539, 770737171]
+inputs:
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/AFIError.swift": !private [1669060456, 760722637]
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/Image.swift": !private [1669060456, 760884761]
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/ImageCache.swift": !private [1669060456, 761049032]
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/ImageDownloader.swift": !private [1669060456, 761263608]
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/ImageFilter.swift": !private [1669060456, 761456966]
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": !private [1669060456, 761699438]
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": !private [1669060456, 761904716]
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": !private [1669060456, 762093067]
+  "/Users/alexandrabrown/HelpDev/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": !private [1669060456, 762340068]

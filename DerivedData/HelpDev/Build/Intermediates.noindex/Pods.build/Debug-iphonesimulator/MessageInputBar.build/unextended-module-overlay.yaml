@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Products/Debug-iphonesimulator/MessageInputBar/MessageInputBar.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/alexandrabrown/HelpDev/DerivedData/HelpDev/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MessageInputBar.build/unextended-module.modulemap",
+    }]
+  }]
+}
