@@ -344,6 +344,8 @@ SWIFT_CLASS("_TtC7HelpDev18PostViewController")
 
 SWIFT_CLASS("_TtC7HelpDev20PythonViewController")
 @interface PythonViewController : UIViewController
+@property (nonatomic, strong) IBOutlet YTPlayerView * _Null_unspecified playerView1;
+@property (nonatomic, strong) IBOutlet YTPlayerView * _Null_unspecified playerView2;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

@@ -176,6 +176,40 @@
 			<key>uniqueIdentifier</key>
 			<string>6E8D41E4-160C-4745-B7F1-A823D9C5AE50</string>
 		</dict>
+		<key>6EDBBD84-F2AB-4C2E-BD45-3A6B6BCEC698</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6EDBBD84-F2AB-4C2E-BD45-3A6B6BCEC698.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HelpDev project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HelpDev</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HelpDev</string>
+			<key>timeStartedRecording</key>
+			<real>691466779.69074905</real>
+			<key>timeStoppedRecording</key>
+			<real>691466815.73327994</real>
+			<key>title</key>
+			<string>Build HelpDev</string>
+			<key>uniqueIdentifier</key>
+			<string>6EDBBD84-F2AB-4C2E-BD45-3A6B6BCEC698</string>
+		</dict>
 		<key>8AC234C8-CDA2-42F1-B703-B0C60BA5247F</key>
 		<dict>
 			<key>className</key>
@@ -209,6 +243,40 @@
 			<string>Build HelpDev</string>
 			<key>uniqueIdentifier</key>
 			<string>8AC234C8-CDA2-42F1-B703-B0C60BA5247F</string>
+		</dict>
+		<key>944544A7-5555-4ABE-964D-93BB1E7592BE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>944544A7-5555-4ABE-964D-93BB1E7592BE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HelpDev project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HelpDev</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build HelpDev</string>
+			<key>timeStartedRecording</key>
+			<real>691466820.183393</real>
+			<key>timeStoppedRecording</key>
+			<real>691466820.43603206</real>
+			<key>title</key>
+			<string>Build HelpDev</string>
+			<key>uniqueIdentifier</key>
+			<string>944544A7-5555-4ABE-964D-93BB1E7592BE</string>
 		</dict>
 		<key>A65F5CD2-B5B9-429F-A71D-63A3AD23C029</key>
 		<dict>
