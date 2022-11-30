@@ -6,7 +6,9 @@ target 'HelpDev' do
   use_frameworks!
 
   # Pods for HelpDev
+	pod 'MessageInputBar'
 	pod 'Parse'
  	pod 'AlamofireImage'
 	pod 'youtube-ios-player-helper'
+	
 end

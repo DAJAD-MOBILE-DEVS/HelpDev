@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "42067bc58ec292970450b8df74a642d1b95abc47b881bbee65dd75869fb11b75"
+build_start_time: [1669770868, 898820877]
+build_end_time: [1669770873, 712726116]
+inputs:
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Controls/InputBarButtonItem.swift": [1669770696, 741419076]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Extensions/NSMutableAttributedString+Extensions.swift": [1669770696, 741681337]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Extensions/UIView+Extensions.swift": [1669770696, 741821289]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/MessageInputBar.swift": [1669770696, 742089271]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Models/NSConstraintLayoutSet.swift": [1669770696, 742795467]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Protocols/InputItem.swift": [1669770696, 743283033]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Protocols/InputPlugin.swift": [1669770696, 743472576]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Protocols/MessageInputBarDelegate.swift": [1669770696, 743670701]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Views/InputStackView.swift": [1669770696, 744029045]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Views/InputTextView.swift": [1669770696, 744239330]
+  "/Users/alexandrabrown/HelpDev/Pods/MessageInputBar/Sources/Views/SeparatorLine.swift": [1669770696, 744534015]

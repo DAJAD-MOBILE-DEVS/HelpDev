@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		652A5DA7292D6B3C008B7F8B /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */; };
 		65855C6C293594DA00C6406B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65855C6B293594DA00C6406B /* PostViewController.swift */; };
 		65AA163B2922CEB70072AD24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AA163A2922CEB70072AD24 /* LoginViewController.swift */; };
+		65ABDE582936700E00E266FE /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDE572936700E00E266FE /* PostCell.swift */; };
+		65ABDE5A2936805C00E266FE /* ReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDE592936805C00E266FE /* ReplyCell.swift */; };
 		ADC10CBD292BFD9F00770AAC /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */; };
 		B0D397A9292C13F600437F58 /* PythonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D397A8292C13F600437F58 /* PythonViewController.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +36,8 @@
 		652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
 		65855C6B293594DA00C6406B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		65AA163A2922CEB70072AD24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		65ABDE572936700E00E266FE /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		65ABDE592936805C00E266FE /* ReplyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyCell.swift; sourceTree = "<group>"; };
 		ADC10CBC292BFD9F00770AAC /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		B0D397A8292C13F600437F58 /* PythonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonViewController.swift; sourceTree = "<group>"; };
 		CA3B08AD2E40DA224AA8A874 /* Pods-HelpDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpDev.debug.xcconfig"; path = "Target Support Files/Pods-HelpDev/Pods-HelpDev.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				31FD105F291D731B00CEDB72 /* Info.plist */,
 				652A5DA6292D6B3C008B7F8B /* ForumViewController.swift */,
 				65855C6B293594DA00C6406B /* PostViewController.swift */,
+				65ABDE572936700E00E266FE /* PostCell.swift */,
+				65ABDE592936805C00E266FE /* ReplyCell.swift */,
 			);
 			path = HelpDev;
 			sourceTree = "<group>";
@@ -144,7 +150,7 @@
 				};
 			};
 			buildConfigurationList = 31FD1049291D731A00CEDB72 /* Build configuration list for PBXProject "HelpDev" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -223,9 +229,11 @@
 			files = (
 				65855C6C293594DA00C6406B /* PostViewController.swift in Sources */,
 				3176169A2924468F009C9C01 /* JavaViewController.swift in Sources */,
+				65ABDE5A2936805C00E266FE /* ReplyCell.swift in Sources */,
 				65AA163B2922CEB70072AD24 /* LoginViewController.swift in Sources */,
 				B0D397A9292C13F600437F58 /* PythonViewController.swift in Sources */,
 				31FD1052291D731A00CEDB72 /* AppDelegate.swift in Sources */,
+				65ABDE582936700E00E266FE /* PostCell.swift in Sources */,
 				ADC10CBD292BFD9F00770AAC /* SwiftViewController.swift in Sources */,
 				31FD1054291D731A00CEDB72 /* SceneDelegate.swift in Sources */,
 				652A5DA7292D6B3C008B7F8B /* ForumViewController.swift in Sources */,
