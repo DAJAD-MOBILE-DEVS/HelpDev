@@ -8,8 +8,8 @@
 	<string>AppKit</string>
 	<string>youtube</string>
 	<string>Dispatch</string>
-	<string>CoreGraphics</string>
 	<string>AlamofireImage</string>
+	<string>CoreGraphics</string>
 	<string>CoreData</string>
 	<string>WebKit</string>
 	<string>UniformTypeIdentifiers</string>
@@ -17,20 +17,20 @@
 	<string>libkern</string>
 	<string>FoundationNetworking</string>
 	<string>Combine</string>
+	<string>CoreServices</string>
 	<string>os</string>
 	<string>UIKit</string>
-	<string>CoreServices</string>
 	<string>sys</string>
 	<string>MessageInputBar</string>
 	<string>CoreLocation</string>
 	<string>CoreImage</string>
-	<string>SystemConfiguration</string>
 	<string>WatchKit</string>
+	<string>SystemConfiguration</string>
 	<string>MobileCoreServices</string>
 	<string>StoreKit</string>
 	<string>Cocoa</string>
-	<string>AudioToolbox</string>
 	<string>Bolts</string>
+	<string>AudioToolbox</string>
 	<string>objc</string>
 </array>
 </plist>

@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>2DEA200D-0784-4309-B295-163D8EE7CD73</key>
+		<key>24A9722C-8C5F-444A-9276-1C76F229B526</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>8AC234C8-CDA2-42F1-B703-B0C60BA5247F</string>
+			<string>5B3B802D-C37C-4890-8872-D94048FA9D1F</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -22,7 +22,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-HelpDev-2022.11.29_20-48-23--0500.xcresult</string>
+			<string>Run-HelpDev-2022.12.01_11-28-25--0500.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -43,13 +43,103 @@
 			<key>signature</key>
 			<string>Run HelpDev</string>
 			<key>timeStartedRecording</key>
-			<real>691465703.67755604</real>
+			<real>691604905.56004703</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run HelpDev</string>
 			<key>uniqueIdentifier</key>
-			<string>2DEA200D-0784-4309-B295-163D8EE7CD73</string>
+			<string>24A9722C-8C5F-444A-9276-1C76F229B526</string>
+		</dict>
+		<key>326BEE83-0A69-439B-A7B3-6EB60F984F88</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>91283080-0879-41B3-B050-C3BEAB21C716</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HelpDev-2022.12.01_11-30-21--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HelpDev project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HelpDev</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HelpDev</string>
+			<key>timeStartedRecording</key>
+			<real>691605021.49811304</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HelpDev</string>
+			<key>uniqueIdentifier</key>
+			<string>326BEE83-0A69-439B-A7B3-6EB60F984F88</string>
+		</dict>
+		<key>37E0ACF8-A497-4AC2-964F-D4B3183A8016</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>D9C5849A-0616-4E42-92EE-C9D16CB5227C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HelpDev-2022.12.01_11-32-52--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HelpDev project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HelpDev</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HelpDev</string>
+			<key>timeStartedRecording</key>
+			<real>691605172.86633694</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HelpDev</string>
+			<key>uniqueIdentifier</key>
+			<string>37E0ACF8-A497-4AC2-964F-D4B3183A8016</string>
 		</dict>
 		<key>65776592-4C49-40E7-A0E7-3A4D1F6D4BB9</key>
 		<dict>
@@ -96,145 +186,10 @@
 			<key>uniqueIdentifier</key>
 			<string>65776592-4C49-40E7-A0E7-3A4D1F6D4BB9</string>
 		</dict>
-		<key>78844A3E-F5B1-446B-A3C2-E5C4354E682C</key>
+		<key>6E7B2133-D36F-4DB7-94D4-85D85374794D</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>39BBEB3A-628E-45D5-A83D-FA42A174509C</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-HelpDev-2022.11.29_20-45-36--0500.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>HelpDev project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>HelpDev</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run HelpDev</string>
-			<key>timeStartedRecording</key>
-			<real>691465536.93105304</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run HelpDev</string>
-			<key>uniqueIdentifier</key>
-			<string>78844A3E-F5B1-446B-A3C2-E5C4354E682C</string>
-		</dict>
-		<key>B195647C-40FF-4D81-9DCE-CF0CE4FA5174</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>2203D987-745E-45A0-8288-19B61ADE7879</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-HelpDev-2022.11.29_20-42-36--0500.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>HelpDev project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>HelpDev</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run HelpDev</string>
-			<key>timeStartedRecording</key>
-			<real>691465356.30095398</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run HelpDev</string>
-			<key>uniqueIdentifier</key>
-			<string>B195647C-40FF-4D81-9DCE-CF0CE4FA5174</string>
-		</dict>
-		<key>C1F1242F-A0EC-4EAA-83F6-9096F0BCD6DF</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>5B9A89E5-848A-400A-A9C6-1CFD7A01AAE4</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-HelpDev-2022.11.29_20-45-18--0500.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>HelpDev project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>HelpDev</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run HelpDev</string>
-			<key>timeStartedRecording</key>
-			<real>691465518.21119404</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run HelpDev</string>
-			<key>uniqueIdentifier</key>
-			<string>C1F1242F-A0EC-4EAA-83F6-9096F0BCD6DF</string>
-		</dict>
-		<key>E8B14B80-6A86-4D58-AD87-DA4B87546E74</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>DD2E3628-8059-4DDC-8C59-4029842628B7</string>
+			<string>D421336D-0A62-4498-B54C-C14AC399495E</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -247,7 +202,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-HelpDev-2022.11.29_20-42-31--0500.xcresult</string>
+			<string>Run-HelpDev-2022.12.01_11-25-59--0500.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -268,13 +223,148 @@
 			<key>signature</key>
 			<string>Run HelpDev</string>
 			<key>timeStartedRecording</key>
-			<real>691465351.65546203</real>
+			<real>691604759.79833198</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run HelpDev</string>
 			<key>uniqueIdentifier</key>
-			<string>E8B14B80-6A86-4D58-AD87-DA4B87546E74</string>
+			<string>6E7B2133-D36F-4DB7-94D4-85D85374794D</string>
+		</dict>
+		<key>9A893018-702D-4858-AF22-6B69F60458D7</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>AEB753BF-E785-483D-9D24-294F40919B25</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HelpDev-2022.12.01_11-15-29--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HelpDev project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HelpDev</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HelpDev</string>
+			<key>timeStartedRecording</key>
+			<real>691604129.02838898</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HelpDev</string>
+			<key>uniqueIdentifier</key>
+			<string>9A893018-702D-4858-AF22-6B69F60458D7</string>
+		</dict>
+		<key>BB138547-864F-41B2-9D41-BBA90D7EF983</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>8E79DBDC-ABC3-4C3F-8B6D-3AD28EF7CE5D</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HelpDev-2022.12.01_11-19-30--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HelpDev project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HelpDev</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HelpDev</string>
+			<key>timeStartedRecording</key>
+			<real>691604370.38262904</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HelpDev</string>
+			<key>uniqueIdentifier</key>
+			<string>BB138547-864F-41B2-9D41-BBA90D7EF983</string>
+		</dict>
+		<key>BD0E42DF-07F7-49D4-ACBC-161801E3157E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>87BCDB43-564F-48CC-8CF8-8FA8783D8CEC</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-HelpDev-2022.12.01_11-22-59--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>HelpDev project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>HelpDev</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run HelpDev</string>
+			<key>timeStartedRecording</key>
+			<real>691604579.21205604</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run HelpDev</string>
+			<key>uniqueIdentifier</key>
+			<string>BD0E42DF-07F7-49D4-ACBC-161801E3157E</string>
 		</dict>
 	</dict>
 </dict>
