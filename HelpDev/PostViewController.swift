@@ -11,7 +11,7 @@ import Parse
 
 class PostViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
-    @IBOutlet weak var commentField: UITextField!
+    @IBOutlet weak var commentField: UITextView!
     
     @IBOutlet weak var imageView: UIImageView!
     
