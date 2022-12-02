@@ -322,14 +322,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddReplyCell" id="PD5-x7-kKU">
-                                        <rect key="frame" x="0.0" y="412" width="390" height="37.333332061767578"/>
+                                        <rect key="frame" x="0.0" y="412" width="390" height="37"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PD5-x7-kKU" id="n3t-tt-MBh">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="37.333332061767578"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="37"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmG-sy-f0c">
-                                                    <rect key="frame" x="30" y="7.9999999999999982" width="352" height="21.333333333333329"/>
+                                                    <rect key="frame" x="30" y="8" width="352" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.63044282578930411" green="0.36893525917087977" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -405,7 +405,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HHt-B0-VRd">
-                                <rect key="frame" x="16" y="387" width="203" height="127.66666666666674"/>
+                                <rect key="frame" x="16" y="387" width="203" height="127.66666666666669"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -547,54 +547,16 @@
         <scene sceneID="Z6P-vi-adg">
             <objects>
                 <viewController id="bI7-Py-h0V" customClass="SwiftViewController" customModule="HelpDev" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="qQZ-hh-bBD">
+                    <view key="view" contentMode="scaleToFill" id="qQZ-hh-bBD">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="740"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B2S-MU-vV2">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B2S-MU-vV2">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="740"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3J0-zk-xyH">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1315"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3J0-zk-xyH">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="6000"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7tY-K9-CK0" customClass="YTPlayerView">
-                                                <rect key="frame" x="0.0" y="704" width="390" height="300"/>
-                                                <color key="backgroundColor" systemColor="labelColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="300" id="dyW-Tv-bjX"/>
-                                                </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9OW-Dj-Ah3" customClass="YTPlayerView">
-                                                <rect key="frame" x="0.0" y="1014" width="390" height="300"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="300" id="Xlf-Kt-FS1"/>
-                                                </constraints>
-                                            </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5f-3W-vqJ">
-                                                <rect key="frame" x="8" y="1314" width="119" height="41"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="https://www.programiz.com/swift-programming/data-types" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIR-9x-a8g">
-                                                <rect key="frame" x="8" y="1355" width="448" height="20.333333333333258"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="https://www.javatpoint.com/swift-introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaM-7E-OvW">
-                                                <rect key="frame" x="8" y="1375.3333333333333" width="347" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="https://www.geeksforgeeks.org/introduction-to-swift-programming/" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxc-PP-fZh">
-                                                <rect key="frame" x="8" y="1396.3333333333333" width="513" height="20.333333333333258"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is Swift?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mym-NI-4wG">
                                                 <rect key="frame" x="8" y="8" width="185" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -602,7 +564,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-12-01 at 8.22.49 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Gbn-sA-okk">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 1" translatesAutoresizingMaskIntoConstraints="NO" id="Gbn-sA-okk">
                                                 <rect key="frame" x="8" y="36" width="360" height="211"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -610,31 +572,108 @@
                                                 <rect key="frame" x="8" y="232" width="360" height="107"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P5A-qB-jba">
-                                                <rect key="frame" x="8" y="568" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 3" translatesAutoresizingMaskIntoConstraints="NO" id="tq2-M8-kCt">
                                                 <rect key="frame" x="-23" y="337" width="436" height="313"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 4" translatesAutoresizingMaskIntoConstraints="NO" id="5Ln-EG-Hy3">
+                                                <rect key="frame" x="0.0" y="650" width="382" height="305"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 5" translatesAutoresizingMaskIntoConstraints="NO" id="oiD-c0-fpZ">
+                                                <rect key="frame" x="-67" y="955" width="511" height="308"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 6" translatesAutoresizingMaskIntoConstraints="NO" id="5K9-Bi-PUG">
+                                                <rect key="frame" x="-27" y="1262" width="436" height="341"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 7" translatesAutoresizingMaskIntoConstraints="NO" id="Lof-J0-7AS">
+                                                <rect key="frame" x="0.0" y="1601" width="390" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 8" translatesAutoresizingMaskIntoConstraints="NO" id="y7U-uo-ioK">
+                                                <rect key="frame" x="0.0" y="1887" width="390" height="242"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 9" translatesAutoresizingMaskIntoConstraints="NO" id="xTz-Qt-5zd">
+                                                <rect key="frame" x="0.0" y="2115" width="390" height="241"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 10" translatesAutoresizingMaskIntoConstraints="NO" id="DPN-nM-BLa">
+                                                <rect key="frame" x="0.0" y="2310" width="390" height="256"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 11" translatesAutoresizingMaskIntoConstraints="NO" id="Azu-u2-7Sp">
+                                                <rect key="frame" x="0.0" y="2549" width="390" height="232"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 12" translatesAutoresizingMaskIntoConstraints="NO" id="eri-6E-Qdn">
+                                                <rect key="frame" x="0.0" y="2781" width="390" height="188"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swift 13" translatesAutoresizingMaskIntoConstraints="NO" id="y7c-ob-jXG">
+                                                <rect key="frame" x="-54" y="2940" width="467" height="276"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 14" translatesAutoresizingMaskIntoConstraints="NO" id="u7j-Me-nxR">
+                                                <rect key="frame" x="-34" y="3224" width="447" height="332"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 15" translatesAutoresizingMaskIntoConstraints="NO" id="0lu-Lp-hjD">
+                                                <rect key="frame" x="-15" y="3564" width="409" height="302"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 16" translatesAutoresizingMaskIntoConstraints="NO" id="1pZ-bc-YU9">
+                                                <rect key="frame" x="0.0" y="3864" width="382" height="219"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swift 17" translatesAutoresizingMaskIntoConstraints="NO" id="Ej3-fA-eJa">
+                                                <rect key="frame" x="-19" y="4080" width="409" height="313"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdA-SR-V9f" customClass="YTPlayerView">
+                                                <rect key="frame" x="8" y="4392" width="374" height="197"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p0y-BL-ZLl" customClass="YTPlayerView">
+                                                <rect key="frame" x="8" y="4597" width="374" height="179"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ktm-35-qri">
+                                                <rect key="frame" x="19" y="4784" width="106" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.w3schools.in/swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh2-yy-Xfz">
+                                                <rect key="frame" x="19" y="4826" width="235" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.youtube.com/watch?v=n5X_V81OYnQ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3k-Fg-52v">
+                                                <rect key="frame" x="19" y="4855" width="316" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://www.youtube.com/watch?v=F2ojC6TNwws" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0u-XL-Ju3">
+                                                <rect key="frame" x="19" y="4903" width="298" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="9OW-Dj-Ah3" firstAttribute="top" secondItem="7tY-K9-CK0" secondAttribute="bottom" id="09Y-gK-bZu"/>
-                                            <constraint firstAttribute="trailing" secondItem="7tY-K9-CK0" secondAttribute="trailing" id="5Nk-Ps-48Z"/>
-                                            <constraint firstItem="EIR-9x-a8g" firstAttribute="top" secondItem="u5f-3W-vqJ" secondAttribute="bottom" id="GJC-wn-7cJ"/>
-                                            <constraint firstItem="u5f-3W-vqJ" firstAttribute="top" secondItem="9OW-Dj-Ah3" secondAttribute="bottom" id="LCJ-IB-4CJ"/>
-                                            <constraint firstItem="9OW-Dj-Ah3" firstAttribute="top" secondItem="7tY-K9-CK0" secondAttribute="bottom" constant="40" id="Q4S-Tn-Vij"/>
-                                            <constraint firstItem="9OW-Dj-Ah3" firstAttribute="leading" secondItem="3J0-zk-xyH" secondAttribute="leading" id="TvT-Xx-hff"/>
-                                            <constraint firstItem="7tY-K9-CK0" firstAttribute="leading" secondItem="3J0-zk-xyH" secondAttribute="leading" id="V1k-bt-I1a"/>
-                                            <constraint firstItem="7tY-K9-CK0" firstAttribute="top" secondItem="3J0-zk-xyH" secondAttribute="top" constant="704" id="YoG-hZ-RiV"/>
-                                            <constraint firstItem="9OW-Dj-Ah3" firstAttribute="top" secondItem="3J0-zk-xyH" secondAttribute="top" constant="1119" id="eXf-ZK-Z4i"/>
-                                            <constraint firstAttribute="height" constant="1500" id="kbF-N4-GBf"/>
-                                            <constraint firstItem="Fxc-PP-fZh" firstAttribute="top" secondItem="KaM-7E-OvW" secondAttribute="bottom" id="lSk-3f-QBb"/>
-                                            <constraint firstAttribute="trailing" secondItem="9OW-Dj-Ah3" secondAttribute="trailing" id="lyp-Ur-vgH"/>
-                                            <constraint firstItem="KaM-7E-OvW" firstAttribute="top" secondItem="EIR-9x-a8g" secondAttribute="bottom" id="mr8-1Q-G7x"/>
-                                            <constraint firstItem="9OW-Dj-Ah3" firstAttribute="top" secondItem="7tY-K9-CK0" secondAttribute="bottom" constant="10" id="zw0-MM-jVr"/>
+                                            <constraint firstAttribute="height" constant="6000" id="kbF-N4-GBf"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -651,7 +690,6 @@
                         <constraints>
                             <constraint firstItem="B2S-MU-vV2" firstAttribute="top" secondItem="qQZ-hh-bBD" secondAttribute="top" id="42Q-Ee-8MM"/>
                             <constraint firstItem="B2S-MU-vV2" firstAttribute="leading" secondItem="6kR-6c-QAX" secondAttribute="leading" id="6pX-Hc-L5I"/>
-                            <constraint firstItem="3J0-zk-xyH" firstAttribute="height" secondItem="qQZ-hh-bBD" secondAttribute="height" multiplier="1.77725" id="URe-O6-yTP"/>
                             <constraint firstItem="3J0-zk-xyH" firstAttribute="width" secondItem="qQZ-hh-bBD" secondAttribute="width" id="jeR-8d-XEg"/>
                             <constraint firstItem="B2S-MU-vV2" firstAttribute="trailing" secondItem="6kR-6c-QAX" secondAttribute="trailing" id="nNv-YQ-1Pw"/>
                             <constraint firstAttribute="bottom" secondItem="B2S-MU-vV2" secondAttribute="bottom" id="wnI-ON-aUS"/>
@@ -660,13 +698,13 @@
                     <navigationItem key="navigationItem" title="Swift" id="kfa-3X-B7i"/>
                     <size key="freeformSize" width="390" height="740"/>
                     <connections>
-                        <outlet property="playervView1" destination="7tY-K9-CK0" id="hhk-gy-G05"/>
-                        <outlet property="playervView2" destination="9OW-Dj-Ah3" id="YEf-dK-cuf"/>
+                        <outlet property="playervView1" destination="jdA-SR-V9f" id="A8k-kS-852"/>
+                        <outlet property="playervView2" destination="p0y-BL-ZLl" id="lfE-Ju-MuF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="efv-sm-ArO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2492.8000000000002" y="-286.05697151424289"/>
+            <point key="canvasLocation" x="2492.3076923076924" y="-286.49289099526067"/>
         </scene>
         <!--Python-->
         <scene sceneID="JAp-dJ-r3Y">
@@ -1043,9 +1081,22 @@
     <resources>
         <image name="HelpDevFinalLogo" width="688" height="719"/>
         <image name="Ronaldo" width="25" height="25"/>
-        <image name="Screen Shot 2022-12-01 at 8.22.49 PM" width="1804" height="874"/>
+        <image name="Swift 1" width="1804" height="874"/>
+        <image name="Swift 10" width="1802" height="1026"/>
+        <image name="Swift 11" width="1798" height="1056"/>
+        <image name="Swift 12" width="1790" height="516"/>
+        <image name="Swift 14" width="1774" height="1592"/>
+        <image name="Swift 15" width="1760" height="1408"/>
+        <image name="Swift 16" width="1794" height="942"/>
+        <image name="Swift 17" width="1756" height="1500"/>
         <image name="Swift 2" width="1724" height="460"/>
         <image name="Swift 3" width="1774" height="1480"/>
+        <image name="Swift 4" width="1760" height="1354"/>
+        <image name="Swift 5" width="1768" height="1518"/>
+        <image name="Swift 6" width="1740" height="1612"/>
+        <image name="Swift 7" width="1772" height="1256"/>
+        <image name="Swift 8" width="1798" height="1162"/>
+        <image name="Swift 9" width="1744" height="682"/>
         <image name="arrow.down" catalog="system" width="118" height="128"/>
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="img1" width="912" height="454"/>
@@ -1085,6 +1136,7 @@
         <image name="javaLogo" width="25" height="25"/>
         <image name="python" width="25" height="25"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="swift 13" width="1794" height="1374"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
