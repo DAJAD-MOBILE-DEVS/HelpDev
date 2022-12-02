@@ -21,6 +21,12 @@ class ForumViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: "Iphone13-2")
+        backgroundImage.contentMode = .scaleAspectFill
+        view.insertSubview(backgroundImage, at: 0)
+       
+        
         commentBar.inputTextView.placeholder = "Add a reply"
         commentBar.sendButton.title = "Post"
         commentBar.delegate = self
