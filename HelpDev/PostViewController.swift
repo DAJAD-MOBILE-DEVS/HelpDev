@@ -55,7 +55,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         picker.delegate = self
         picker.allowsEditing = true
         
-        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
             
             picker.sourceType = .camera
             
