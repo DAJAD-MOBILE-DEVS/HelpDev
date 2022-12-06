@@ -26,19 +26,17 @@ The JAD app is for anyone who aspires to learn programming at the beginner level
 **Required Must-have Stories**
 
 * [x] User can create an account to login
-
-![](https://i.imgur.com/bhoXdOQ.gif)
-
 * [x] User can login anonomously to use the app without an account
 * [x] User can post a question
 * [x] User can reply to other questions
 * [x] User can navigate app with tabs in the navigation bar
-
-![](https://i.imgur.com/YglLjdF.gif)
-
-* [ ] Users are able to upload photos in addition to text when posting a question
 * [x] User can view information on any of the 3 coding languages provided by the app
-![](https://i.imgur.com/cUvMkvi.gif)
+
+![](https://i.imgur.com/0hj5FTs.gif)
+
+* [x] Users are able to upload photos in addition to text when posting a question
+
+![](https://i.imgur.com/1UUcDKn.gif)
 
 **Optional Nice-to-have Stories**
 
