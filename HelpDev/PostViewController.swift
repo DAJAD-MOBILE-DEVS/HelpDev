@@ -55,15 +55,12 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         picker.delegate = self
         picker.allowsEditing = true
         
+        
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
             
-            picker.sourceType = .camera
-            
-        } else {
-            
             picker.sourceType = .photoLibrary
-            
         }
+        
         
         present(picker, animated: true, completion: nil)
             
@@ -76,10 +73,11 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         let size = CGSize(width: 300, height: 300)
         let scaledImage = image.af.imageAspectScaled(toFit: size)
         
+      
         imageView.image = scaledImage
         
         dismiss(animated: true, completion: nil)
-        
+            
     }
     
     /*

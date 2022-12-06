@@ -122,13 +122,14 @@ class ForumViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let user = post["author"] as! PFUser
             cell.usernameLabel.text = user.username
             
-            cell.commentLabel.text = post["text"] as! String
+            cell.commentLabel.text = post["text"] as? String
             
             let imageFile = post["image"] as! PFFileObject
             let urlString = imageFile.url!
             let url = URL(string: urlString)!
             
             cell.photoView.af.setImage(withURL: url)
+
             
             return cell
             

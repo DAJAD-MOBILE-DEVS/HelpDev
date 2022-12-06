@@ -67,13 +67,16 @@
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iAb-uf-6aS"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign in anonimously" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZb-Fe-3vr">
-                                <rect key="frame" x="120" y="682" width="152" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSm-Wm-1aq">
+                                <rect key="frame" x="105" y="638" width="179" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemOrangeColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SignIn Anonymously"/>
+                                <connections>
+                                    <action selector="anonymous:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ei-j2-x94"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -322,14 +325,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddReplyCell" id="PD5-x7-kKU">
-                                        <rect key="frame" x="0.0" y="412" width="390" height="36.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="412" width="390" height="37"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PD5-x7-kKU" id="n3t-tt-MBh">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="36.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="37"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reply" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmG-sy-f0c">
-                                                    <rect key="frame" x="30" y="8.0000000000000018" width="352" height="20.666666666666671"/>
+                                                    <rect key="frame" x="30" y="8" width="352" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.63044282578930411" green="0.36893525917087977" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -404,12 +407,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HHt-B0-VRd">
-                                <rect key="frame" x="16" y="387" width="203" height="127.66666666666669"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.artframe" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HHt-B0-VRd">
+                                <rect key="frame" x="16" y="390" width="89" height="42"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="127" id="suA-Nw-e9y"/>
+                                    <constraint firstAttribute="height" constant="45.000000000000057" id="suA-Nw-e9y"/>
                                 </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="bRf-sF-4JV" appends="YES" id="KYj-9H-HeW"/>
@@ -421,7 +424,7 @@
                         <constraints>
                             <constraint firstItem="ftK-ID-rVJ" firstAttribute="leading" secondItem="Pq8-F6-mx2" secondAttribute="leading" id="1fL-OR-U7d"/>
                             <constraint firstItem="ftK-ID-rVJ" firstAttribute="top" secondItem="kHL-Zg-K8Q" secondAttribute="bottom" constant="8" id="9j6-qo-2D7"/>
-                            <constraint firstItem="Wg0-VY-OgR" firstAttribute="trailing" secondItem="HHt-B0-VRd" secondAttribute="trailing" constant="171" id="CU5-7t-TVa"/>
+                            <constraint firstItem="Wg0-VY-OgR" firstAttribute="trailing" secondItem="HHt-B0-VRd" secondAttribute="trailing" constant="285" id="CU5-7t-TVa"/>
                             <constraint firstItem="kHL-Zg-K8Q" firstAttribute="top" secondItem="7Ek-qX-3CD" secondAttribute="bottom" constant="8" id="FO3-ka-YEM"/>
                             <constraint firstItem="Wg0-VY-OgR" firstAttribute="bottom" secondItem="ftK-ID-rVJ" secondAttribute="bottom" constant="407" id="HQg-xr-rQg"/>
                             <constraint firstItem="Wg0-VY-OgR" firstAttribute="trailing" secondItem="7Ek-qX-3CD" secondAttribute="trailing" constant="32" id="ROp-Xa-rTN"/>
@@ -447,7 +450,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="5040.8000000000002" y="-318.89055472263868"/>
+            <point key="canvasLocation" x="5040" y="-319.19431279620852"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="GYY-X6-Zm5">
@@ -1134,8 +1137,8 @@
         <image name="java7" width="1080" height="772"/>
         <image name="java9" width="1080" height="1778"/>
         <image name="javaLogo" width="25" height="25"/>
+        <image name="photo.artframe" catalog="system" width="128" height="93"/>
         <image name="python" width="25" height="25"/>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <image name="swift 13" width="1794" height="1374"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

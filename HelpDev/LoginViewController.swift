@@ -22,6 +22,24 @@ class LoginViewController: UIViewController {
         view.insertSubview(backgroundImage, at: 0)
     }
     
+    
+    @IBAction func anonymous(_ sender: Any) {
+        
+        let username = "Anonymous"
+        let password = "1122"
+        
+        PFUser.logInWithUsername(inBackground: username, password: password) { user, error in
+            if user != nil {
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            } else {
+                print("Error: \(String(describing: error?.localizedDescription))")
+            }
+        }
+        
+    }
+    
+    
+    
     @IBAction func onSignIn(_ sender: Any) {
         let username = usernameField.text!
         let password = passwordField.text!
