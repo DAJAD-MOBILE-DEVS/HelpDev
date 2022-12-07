@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-The JAD app is for anyone who aspires to learn programming at the beginner level. It is mainly targeted at students, however, anyone can use the JAD app! The app offers 3 programming languages with basic syntax tutorials and a public forum for discussion.
+The HelpDev app is for anyone who aspires to learn programming at the beginner level. It is mainly targeted at students, however, anyone can use the JAD app! The app offers 3 programming languages with basic syntax tutorials and a public forum for discussion.
 
 ### App Evaluation
 
