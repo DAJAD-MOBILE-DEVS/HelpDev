@@ -14,10 +14,10 @@ The HelpDev app is for anyone who aspires to learn programming at the beginner l
 
 - **Category:** Coding help / Coding Forum
 - **Mobile:** This app will be developed for mobile devices only
-- **Story:** The purpose of this app is to help people who want to learn more about the three coding languages provided in out app as well as being able to ask coding questions that they need answered.
-- **Market:** The most suitable audeince we would make this application for would be middle and high schoolers looking to start learning the basiscs of coding.
+- **Story:** The purpose of this app is to help people who want to learn more about the three coding languages provided in out app as well as being able to ask coding questions that they need an answer for.
+- **Market:** The most suitable audience we would make this application for would be middle and high schoolers looking to start learning the basiscs of coding.
 - **Habit:** This app can be used as often as the user wants as they are in control of how they learn using the app and can seek further guidance with the question forum.
-- **Scope:** First we would start with getting the coding basics to provide our users with to learn then evolve the application for coding help with users being able to create accounts and posting questions.
+- **Scope:** First we would start with getting the coding basics to provide our users with to learn then evolve the application for coding help with users being able to create accounts and posting questions. (Scope accomplished).
 
 ## Product Spec
 
